@@ -1,0 +1,44 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    border-radius: 20px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-radius: 20px;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  

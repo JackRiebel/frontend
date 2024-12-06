@@ -1,0 +1,143 @@
+/* src/styles/services.css */
+
+/* Forum Page Styles */
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    border-radius: 20px;
+  }
+  
+  .btn-secondary {
+    border-radius: 20px;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 20px;
+  }
+  
+  .btn-outline-secondary {
+    border-radius: 20px;
+  }
+  
+  /* Headings */
+  h1,
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .input-group {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Dropdowns for Service Types and Animal Categories */
+  .form-select {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Recently Used Services */
+  .recently-used-section {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Recommended Services */
+  .recommended-section {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Responsive Image Preview in Modal */
+  .modal-body .img-thumbnail {
+    max-height: 150px;
+  }
+  
+  /* Ensure the "Create New Post" button is aligned properly */
+  .text-md-end {
+    text-align: right !important;
+  }
+  
+  @media (max-width: 767.98px) {
+    .text-md-end {
+      text-align: center !important;
+    }
+  }
+  
+  /* Additional Styling for Recently Used and Recommended Sections */
+  .recently-used-section h2,
+  .recommended-section h2,
+  .all-services-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .recently-used-section .card,
+  .recommended-section .card,
+  .all-services-section .card {
+    margin-bottom: 1rem;
+  }
+  
+  .recently-used-section .card:hover,
+  .recommended-section .card:hover,
+  .all-services-section .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+  }
+  
+  /* Scrollbar Styling for Comments and Sections */
+  .comments-section::-webkit-scrollbar,
+  .recently-used-section::-webkit-scrollbar,
+  .recommended-section::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .comments-section::-webkit-scrollbar-track,
+  .recently-used-section::-webkit-scrollbar-track,
+  .recommended-section::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .comments-section::-webkit-scrollbar-thumb,
+  .recently-used-section::-webkit-scrollbar-thumb,
+  .recommended-section::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .comments-section::-webkit-scrollbar-thumb:hover,
+  .recently-used-section::-webkit-scrollbar-thumb:hover,
+  .recommended-section::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

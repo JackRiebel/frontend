@@ -1,0 +1,122 @@
+/* src/pages/Forum.css */
+
+/* Forum Page Styles */
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    border-radius: 20px;
+  }
+  
+  .btn-secondary {
+    border-radius: 20px;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 20px;
+  }
+  
+  .btn-outline-secondary {
+    border-radius: 20px;
+  }
+  
+  /* Headings */
+  h1,
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 15px;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  /* Search Bar */
+  .input-group {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Tabs */
+  .nav-tabs .nav-link {
+    border-radius: 20px 20px 0 0;
+    margin-right: 5px;
+    color: #007bff;
+    border: 1px solid #dee2e6;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff #007bff #fff;
+  }
+  
+.nav-tabs .nav-link:not(.active) {
+  background-color: #f8f9fa;
+}
+
+  
+  /* Comments Section */
+  .comments-section {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .comment-card {
+    background-color: #f1f1f1;
+    border: none;
+  }
+  
+  .comment-card .card-body {
+    padding: 0.75rem;
+  }
+  
+  /* Responsive Image Preview in Modal */
+  .modal-body .img-thumbnail {
+    max-height: 150px;
+  }
+  
+  /* Ensure the "Create New Post" button is aligned properly */
+  .text-md-end {
+    text-align: right !important;
+  }
+  
+  @media (max-width: 767.98px) {
+    .text-md-end {
+      text-align: center !important;
+    }
+  }
+  

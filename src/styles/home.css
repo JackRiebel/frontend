@@ -1,0 +1,75 @@
+/* Ensure the buttons don't stretch and maintain proper layout */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 15px; /* Adds spacing between buttons */
+  margin-top: 20px; /* Optional: Adds some margin above buttons */
+}
+
+.btn {
+  max-width: 250px; /* Limit the width of the button */
+  display: inline-block; /* Ensures the button doesn't stretch to full width */
+}
+
+.btn-lg {
+  width: auto; /* Ensures the button width is based on content */
+  min-width: 200px; /* Optional: Minimum width for consistency */
+}
+
+/* Button styles */
+.btn-primary, .btn-outline-primary {
+  white-space: nowrap; /* Prevents button text from wrapping */
+  padding: 12px 24px; /* Adjust padding if necessary */
+  display: inline-block; /* Ensures button doesn't stretch to fill container */
+  border-radius: 20px;
+}
+
+.btn-light {
+  color: #007bff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+/* Card styling */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blockquote {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.blockquote-footer {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+/* Heading styles */
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* Background color for primary sections */
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}

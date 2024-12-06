@@ -1,0 +1,82 @@
+/* General body background */
+body {
+    background-color: #f8f9fa; /* Light gray background for the body */
+}
+
+/* Signup page background with peach gradient */
+.signup-page {
+    background: #ffffff; /* Peach to light yellow gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container with a white background */
+.card {
+    background-color: #ffffff;
+    border: none;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header styling */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Form labels */
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #007bff; /* Light yellow color for the button */
+    border-color: #ffbc00;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #ffcf55; /* Lighter yellow on hover */
+    border-color: #ffcf55;
+}
+
+/* Primary text link */
+.text-primary {
+    color: #ffbc00; /* Yellow text */
+    text-decoration: none;
+}
+
+.text-primary:hover {
+    color: #ffcf55; /* Lighter yellow on hover */
+    text-decoration: underline;
+}
+
+/* Centered text link for the signup page */
+.text-center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Button styling for smaller screens */
+@media (max-width: 576px) {
+    .btn-primary {
+        font-size: 0.9rem; /* Smaller button text for mobile screens */
+        padding: 0.65rem;
+    }
+}
